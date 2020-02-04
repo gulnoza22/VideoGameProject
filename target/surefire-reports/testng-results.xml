@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3201" started-at="2020-02-04T19:05:26Z" finished-at="2020-02-04T19:05:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3201" started-at="2020-02-04T19:05:26Z" finished-at="2020-02-04T19:05:29Z">
+      <class name="restapi.RestApiAutomation">
+        <test-method status="PASS" signature="testGetRequest_getAllVideoGames_TC1()[pri:1, instance:restapi.RestApiAutomation@7fad8c79]" name="testGetRequest_getAllVideoGames_TC1" duration-ms="1880" started-at="2020-02-04T19:05:26Z" finished-at="2020-02-04T19:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRequest_getAllVideoGames_TC1 -->
+        <test-method status="PASS" signature="testPost_toAddNewVideoGame()[pri:2, instance:restapi.RestApiAutomation@7fad8c79]" name="testPost_toAddNewVideoGame" duration-ms="552" started-at="2020-02-04T19:05:28Z" finished-at="2020-02-04T19:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPost_toAddNewVideoGame -->
+        <test-method status="PASS" signature="testGet_toGetCreatedVideoID()[pri:3, instance:restapi.RestApiAutomation@7fad8c79]" name="testGet_toGetCreatedVideoID" duration-ms="640" started-at="2020-02-04T19:05:28Z" finished-at="2020-02-04T19:05:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_toGetCreatedVideoID -->
+        <test-method status="PASS" signature="testPUT_toUpdateVideoGame()[pri:4, instance:restapi.RestApiAutomation@7fad8c79]" name="testPUT_toUpdateVideoGame" duration-ms="69" started-at="2020-02-04T19:05:29Z" finished-at="2020-02-04T19:05:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPUT_toUpdateVideoGame -->
+        <test-method status="PASS" signature="testDelete_toDeleteVideoGameID()[pri:5, instance:restapi.RestApiAutomation@7fad8c79]" name="testDelete_toDeleteVideoGameID" duration-ms="37" started-at="2020-02-04T19:05:29Z" finished-at="2020-02-04T19:05:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete_toDeleteVideoGameID -->
+      </class> <!-- restapi.RestApiAutomation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
